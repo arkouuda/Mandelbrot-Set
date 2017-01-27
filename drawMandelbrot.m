@@ -4,6 +4,7 @@ function drawMandelbrot
     x = linspace(-2,2,n);
     y = linspace(-2,2,n);
     color = colorPixels(x,y,n,max);
+    figure;
     image(x,y,color);
     colormap(pink);
     axis image;
